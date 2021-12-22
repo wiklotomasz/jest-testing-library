@@ -30,6 +30,7 @@ function ScoopOption(props) {
             type="number"
             defaultValue={0}
             onChange={handleChange}
+            role="spinbutton"
           />
         </Col>
       </Form.Group>

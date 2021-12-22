@@ -12,7 +12,7 @@ test("update scoop subtotal when scoops change", async () => {
 
   // update vanilla scoops to 1 and check subtotal
   const vanillaInput = await screen.findByRole("spinbutton", {
-    name: "Vanilla",
+    name: "Vanilla scoop",
   });
   userEvent.click(vanillaInput);
   userEvent.type(vanillaInput, "1");
@@ -20,7 +20,7 @@ test("update scoop subtotal when scoops change", async () => {
 
   // update chocolate scoops to 2 and check subtotal
   const chocolateInput = await screen.findByRole("spinbutton", {
-    name: "Chocolate",
+    name: "Chocolate scoop",
   });
   userEvent.click(chocolateInput);
   userEvent.type(chocolateInput, "2");
