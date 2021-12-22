@@ -1,4 +1,4 @@
-import { render, screen } from "../../../test-utils/testing-library-utilsw";
+import { render, screen } from "../../../test-utils/testing-library-utils";
 
 import Options from "../Options";
 
